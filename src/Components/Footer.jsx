@@ -1,15 +1,15 @@
 const Footer = () => {
   const footerNavs = [
     {
-      href: '',
+      href: '/about',
       name: 'About'
     },
     {
-      href: 'j',
+      href: '/cv',
       name: 'CV'
     },
     {
-      href: '',
+      href: '/projects',
       name: 'Projects'
     }
   ];
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <a href="/">
+              <a href="https://www.linkedin.com/in/jmollernielsen/">
                 <img src="/social-linkedin-circle-1024.webp" alt="LinkedIn" />
               </a>
             </li>

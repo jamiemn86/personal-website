@@ -5,9 +5,9 @@ const Header = () => {
 
   // Paths to be added
   const navigation = [
-    { title: 'About', path: '' },
-    { title: 'CV', path: '' },
-    { title: 'Projects', path: '' }
+    { title: 'About', path: '/about' },
+    { title: 'CV', path: '/cv' },
+    { title: 'Projects', path: '/projects' }
   ];
 
   return (

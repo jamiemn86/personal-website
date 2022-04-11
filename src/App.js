@@ -1,17 +1,19 @@
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './Components/About';
+import Cv from './Components/Cv';
+import Projects from './Components/Projects';
+import Homepage from './Components/Homepage';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-                <p className="leading-relaxed mt-2 text-[15px]">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
-            </div>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cv" element={<Cv />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
