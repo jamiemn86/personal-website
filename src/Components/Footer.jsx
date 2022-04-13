@@ -27,7 +27,8 @@ const Footer = () => {
       </ul>
       <div className="mt-8 items-center justify-between sm:flex">
         <div className="mt-4 sm:mt-0">
-          Built with ❤️ in 2022 using React and Float UI.
+          Built with ❤️ in 2022 using React and{' '}
+          <a style={{fontWeight: "bolder"}} href="https://www.floatui.com/">Float UI.</a>
         </div>
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">

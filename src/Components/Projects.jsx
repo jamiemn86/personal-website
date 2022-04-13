@@ -8,7 +8,7 @@ function Projects() {
       <Header />
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
         <p className="leading-relaxed mt-2 text-[15px]">
-          This is the Projects page
+          This is the Projects page. Include Gallery of Froggy project
         </p>
       </div>
       <Footer />
