@@ -74,6 +74,45 @@ function Projects() {
           </span>
         </button>
       </div>
+      <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
+        <p className="leading-relaxed mt-16">
+          For the final module of the Ironhack web development course I did in
+          2021, I had to build a SPA using React. The project requirements were
+          as follows:
+        </p>
+        <br />
+        <ul>
+          <li>1. Build both a client and a server app</li>
+          <li>
+            2. The project needed to use React, Typescript was not allowed
+          </li>
+          <li>
+            3. Regarding the server app, it needed to have authentication
+            features including sign up, sign in and log out at. It needed at
+            least 2 modules, including the User module. A final requirement was
+            that the server app needed to perform all CRUD operations on a model
+            that was not the User one
+          </li>
+          <li>
+            4. The app needed to be linked to a GitHub repo and deployed on
+            Heroku and Netlify within 1 week. In total, we had 2 weeks to
+            complete the project
+          </li>
+        </ul>
+        <br />I teamed up with two course participants,{' '}
+        <a
+          style={{ fontWeight: 'bolder' }}
+          href="https://github.com/HungryOctopus"
+        >
+          Amélie Monnoyer
+        </a>{' '}
+        and{' '}
+        <a style={{ fontWeight: 'bolder' }} href="https://github.com/Senimtra">
+          Gregor Seegers
+        </a>
+        . The idea came from Amélie, and was based on her voluntary experience
+        helping frogs cross a village road every year in Baden-Württemberg.
+      </div>
       <Footer />
     </>
   );
