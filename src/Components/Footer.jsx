@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-      <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
+      <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-14 sm:space-y-0">
         {footerNavs.map((item, idx) => (
           <li className=" hover:text-gray-800" key={idx}>
             <a href={item.href}>{item.name}</a>
