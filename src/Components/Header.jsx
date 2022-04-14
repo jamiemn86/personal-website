@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import internet from '../Assets/internet.png';
 
 const Header = () => {
   const [state, setState] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="/">
             <img
-              src="/internet.png"
+              src={internet}
               width={120}
               height={50}
               alt="Float UI logo"

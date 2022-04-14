@@ -89,7 +89,8 @@ function Projects() {
         <ul>
           <li>1. Build both a client and a server app</li>
           <li>
-            2. The project needed to use React. Typescript was not allowed
+            2. The project needed to use the MERN stack, i.e. MongoDB,
+            ExpressJS, React, and NodeJS. Typescript was not allowed
           </li>
           <li>
             3. Regarding the server app, it needed to have authentication
