@@ -32,7 +32,7 @@ function About() {
           made me curious to learn more, and in June of 2021 I enrolled in a 6
           month part-time Full Stack Web Development Bootcamp, graduating in
           November. The last module of this Bootcamp focused on React and
-          building SPAs. React has since been a library than I have been trying
+          building SPAs. React has since been a library that I have been trying
           to learn as much as possible about, mainly by completing Udemy
           Courses.
         </p>

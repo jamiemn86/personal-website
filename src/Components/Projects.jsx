@@ -26,6 +26,13 @@ function Projects() {
     setN(n - 1);
   };
 
+  var imageNumber =
+    galleryImage === projectimage1
+      ? '1'
+      : galleryImage === projectimage2
+      ? '2'
+      : '3';
+
   return (
     <>
       <Header />
@@ -75,7 +82,7 @@ function Projects() {
             className="visually-hidden text-gray-500 mx-10 backdrop-blur-md bg-black/10"
             onClick={nextImage}
           >
-            Next
+            Next ({imageNumber} of 3)
           </span>
         </button>
       </div>
