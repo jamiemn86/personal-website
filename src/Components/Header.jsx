@@ -16,12 +16,7 @@ const Header = () => {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="/">
-            <img
-              src={internet}
-              width={120}
-              height={50}
-              alt="Float UI logo"
-            />
+            <img src={internet} width={120} height={50} alt="Float UI logo" className="transition duration-500 hover:scale-110 ease-in-out"/>
           </a>
           <div className="md:hidden">
             <button
@@ -78,7 +73,7 @@ const Header = () => {
         <div className="hidden md:inline-block">
           <a
             href="https://www.linkedin.com/in/jmollernielsen/"
-            className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
+            className="transition duration-500 py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow"
           >
             Get in touch
           </a>

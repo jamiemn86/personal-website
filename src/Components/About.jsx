@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import tervuren from '../Assets/bernardolorena-ponte-tervuren-unsplash.jpg';
+import tervuren from '../Assets/bernardolorena-ponte-unsplash.jpg';
 
 function About() {
   return (
@@ -15,15 +15,14 @@ function About() {
         />
       </div>
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-10 my-10">
-          I was born in Belgium and grew up outside of Brussels. The picture
-          above is from the small town of Tervuren, where my brother and father
-          still live. However, I have British and Danish passports, as my family
-          is not Belgian. I studied in the UK and then worked in both London and
-          Berlin. At the end of 2021, I moved to Gdańsk, Poland, where I am
-          currently working.
+        <p className="leading-relaxed mt-10 my-10 text-left">
+          I was born in Belgium and grew up outside of Brussels, in a small town
+          pictured above. However, I have British and Danish passports, as my
+          family is not Belgian. I studied in the UK and then worked in both
+          London and Berlin. At the end of 2021, I moved to Gdańsk, Poland,
+          where I am currently working.
         </p>
-        <p className="leading-relaxed mt-6">
+        <p className="leading-relaxed mt-6 text-left">
           I had been interested in doing a web development course for a long
           time, as I had previously worked with developers and on web projects
           in a QA and Project Management capacity. However it was only in
