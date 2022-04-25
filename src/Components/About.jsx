@@ -11,7 +11,7 @@ function About() {
         <img
           src={belgium}
           class="p-1 bg-white border rounded max-w-sm"
-          alt="profilephoto"
+          alt="belgiumphoto"
         />
       </div>
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
