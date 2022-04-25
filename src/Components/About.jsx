@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import tervuren from '../Assets/bernardolorena-ponte-unsplash.jpg';
+import belgium from '../Assets/bernardolorena-ponte-unsplash.jpg';
 
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
       <Header />
       <div class="flex flex-wrap justify-center mt-10">
         <img
-          src={tervuren}
+          src={belgium}
           class="p-1 bg-white border rounded max-w-sm"
           alt="profilephoto"
         />

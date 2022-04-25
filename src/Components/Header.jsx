@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import internet from '../Assets/internet.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [state, setState] = useState(false);
@@ -16,7 +17,13 @@ const Header = () => {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="/">
-            <img src={internet} width={120} height={50} alt="Float UI logo" className="transition duration-500 hover:scale-110 ease-in-out"/>
+            <img
+              src={internet}
+              width={120}
+              height={50}
+              alt="Float UI logo"
+              className="transition duration-500 hover:scale-110 ease-in-out"
+            />
           </a>
           <div className="md:hidden">
             <button
@@ -63,9 +70,13 @@ const Header = () => {
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-12 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <li key={idx} className="text-gray-600 hover:text-indigo-600">
-                  <a href={item.path}>{item.title}</a>
-                </li>
+                <Link
+                  to={item.path}
+                  key={idx}
+                  className="text-gray-600 hover:text-indigo-600"
+                >
+                  {item.title}
+                </Link>
               );
             })}
           </ul>
