@@ -22,13 +22,15 @@ const Footer = () => {
     <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-14 sm:space-y-0">
         {footerNavs.map((item, idx) => (
-          <Link
-            to={item.href}
-            key={idx}
-            className="text-gray-600 hover:text-indigo-600"
-          >
-            {item.name}
-          </Link>
+          <div>
+            <Link
+              to={item.href}
+              key={idx}
+              className="text-gray-600 hover:text-indigo-600"
+            >
+              {item.name}
+            </Link>
+          </div>
         ))}
       </ul>
       <div className="mt-8 items-center justify-between sm:flex">
