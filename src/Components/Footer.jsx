@@ -1,4 +1,5 @@
 import socialmedia from '../Assets/social-linkedin-circle-1024.webp';
+import githubLogo from '../Assets/GitHub-Mark-120px-plus.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -44,6 +45,15 @@ const Footer = () => {
                 <img
                   src={socialmedia}
                   alt="LinkedIn"
+                  className="transition duration-500 hover:scale-110 ease-in-out"
+                />
+              </a>
+            </li>
+            <li className="w-10 h-10 border rounded-full flex items-center justify-center">
+              <a href="https://github.com/jamiemn86">
+                <img
+                  src={githubLogo}
+                  alt="GitHubLogo"
                   className="transition duration-500 hover:scale-110 ease-in-out"
                 />
               </a>
