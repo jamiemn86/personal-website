@@ -7,7 +7,7 @@ function Cv() {
     <>
       <Header />
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-2">This is the CV page</p>
+        <p className="leading-relaxed mt-8">This is the CV page</p>
       </div>
       <Footer />
     </>

@@ -48,7 +48,7 @@ test('about page appears correctly', async () => {
     </MemoryRouter>
   );
 
-  const belgiumImage = screen.getByAltText('belgiumphoto', { exact: false });
+  const JSImage = screen.getByAltText('Javascript logo', { exact: false });
 
-  expect(belgiumImage).toBeInTheDocument();
+  expect(JSImage).toBeInTheDocument();
 });

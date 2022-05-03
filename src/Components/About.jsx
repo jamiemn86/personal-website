@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <Header />
-      <div class="flex flex-wrap justify-center space-x-24 scale-50">
+      <div class="flex flex-wrap justify-center space-x-24 scale-75">
         <img
           src={JSlogo}
           class="p-1 bg-white border rounded max-w-sm hidden md:block"
@@ -20,7 +20,7 @@ function About() {
           alt="React logo"
         />
       </div>
-      <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
+      <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-xl mx-auto">
         <p className="leading-relaxed mt-8 my-10 text-left">
           I had been interested in doing a web development course for a long
           time, as I had previously worked with developers and on web projects
