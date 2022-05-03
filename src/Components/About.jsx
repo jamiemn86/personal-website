@@ -1,28 +1,27 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import belgium from '../Assets/bernardolorena-ponte-unsplash.jpg';
+import JSlogo from '../Assets/jslogo.png';
+import ReactLogo from '../Assets/reactlogo.png';
 
 function About() {
   return (
     <>
       <Header />
-      <div class="flex flex-wrap justify-center mt-10">
+      <div class="flex flex-wrap justify-center space-x-24 scale-50">
         <img
-          src={belgium}
-          class="p-1 bg-white border rounded max-w-sm"
-          alt="belgiumphoto"
+          src={JSlogo}
+          class="p-1 bg-white border rounded max-w-sm hidden md:block"
+          alt="Javascript logo"
+        />
+        <img
+          src={ReactLogo}
+          class="p-1 bg-white border rounded max-w-sm hidden md:block"
+          alt="React logo"
         />
       </div>
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-10 my-10 text-left">
-          I was born in Belgium and grew up outside of Brussels, in a small town
-          pictured above. However, I have British and Danish passports, as my
-          family is not Belgian. I studied in the UK and then worked in both
-          London and Berlin. At the end of 2021, I moved to Gdańsk, Poland,
-          where I am currently working.
-        </p>
-        <p className="leading-relaxed mt-6 text-left">
+        <p className="leading-relaxed mt-8 my-10 text-left">
           I had been interested in doing a web development course for a long
           time, as I had previously worked with developers and on web projects
           in a QA and Project Management capacity. However it was only in
