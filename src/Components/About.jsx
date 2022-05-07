@@ -8,15 +8,15 @@ function About() {
   return (
     <>
       <Header />
-      <div class="flex flex-wrap justify-center space-x-24 scale-75">
+      <div className="flex flex-wrap justify-center space-x-24 scale-75">
         <img
           src={JSlogo}
-          class="p-1 bg-white border rounded max-w-sm hidden md:block"
+          className="p-1 bg-white border rounded max-w-sm hidden md:block"
           alt="Javascript logo"
         />
         <img
           src={ReactLogo}
-          class="p-1 bg-white border rounded max-w-sm hidden md:block"
+          className="p-1 bg-white border rounded max-w-sm hidden md:block"
           alt="React logo"
         />
       </div>

@@ -70,10 +70,9 @@ const Header = () => {
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-12 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <div>
+                <div key={idx}>
                   <Link
                     to={item.path}
-                    key={idx}
                     className="text-gray-600 hover:text-indigo-600"
                   >
                     {item.title}

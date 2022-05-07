@@ -7,10 +7,10 @@ function Homepage() {
   return (
     <>
       <Header />
-      <div class="flex flex-wrap justify-center mt-10">
+      <div className="flex flex-wrap justify-center mt-10">
         <img
           src={profilephoto}
-          class="p-1 bg-white border rounded max-w-sm"
+          className="p-1 bg-white border rounded max-w-sm"
           alt="profilephoto"
         />
       </div>
