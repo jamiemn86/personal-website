@@ -154,9 +154,9 @@ function Projects() {
           the messaging system, I learned the hard way that if you make changes
           to the back end, always restart your local server 😂 All in all, it
           was a fun project and I learned a lot from both Amélie and Gregor. Our
-          project was voted as the most interesting by our graduating class, and
-          we were picked to present it to Ironhack's other graduating classes a
-          few weeks later.
+          project was voted the most interesting by our graduating class, and we
+          were picked to present it to Ironhack's other graduating classes a few
+          weeks later.
         </p>
       </div>
       <Footer />
