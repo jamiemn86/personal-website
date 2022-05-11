@@ -7,7 +7,7 @@ function Cv() {
     <>
       <Header />
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-4">Most recent roles:</p>
+        <p className="leading-relaxed mt-4 text-center">Most recent roles:</p>
       </div>
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-xl mx-auto">
         <div className="leading-relaxed mt-4 my-4 text-center">
