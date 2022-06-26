@@ -73,7 +73,7 @@ const Header = () => {
                 <div key={idx}>
                   <Link
                     to={item.path}
-                    className="text-gray-600 hover:text-indigo-600"
+                    className="link link-underline link-underline-black text-gray-600 hover:text-indigo-600"
                   >
                     {item.title}
                   </Link>

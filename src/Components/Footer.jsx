@@ -25,7 +25,7 @@ const Footer = () => {
           <div key={idx}>
             <Link
               to={item.href}
-              className="text-gray-600 hover:text-indigo-600"
+              className="link link-underline link-underline-black text-gray-600 hover:text-indigo-600"
             >
               {item.name}
             </Link>
