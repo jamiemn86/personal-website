@@ -25,7 +25,7 @@ function NotFound() {
           <p>
             Take me back to the{' '}
             <Link to="/" className="text-gray-600 hover:text-indigo-600">
-              homepage
+              <b>homepage</b>
             </Link>
           </p>
         </div>

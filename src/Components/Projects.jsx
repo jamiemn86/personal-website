@@ -13,6 +13,7 @@ function Projects() {
   const [n, setN] = useState(0);
   const [galleryImage, setGalleryImage] = useState(galleryImages[n]);
   const [inProp, setInProp] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   const nextImage = () => {
     setInProp(true);
@@ -41,6 +42,10 @@ function Projects() {
       ? '2'
       : '3';
 
+  const onLoadHandler = () => {
+    setImagesLoaded(true);
+  };
+
   return (
     <>
       <Header />
@@ -57,7 +62,12 @@ function Projects() {
         >
           <div className="carousel-inner relative w-full overflow-hidden">
             <div className="carousel-item float-left w-full">
-              <img src={galleryImage} className="block w-full" alt="Camera" />
+              <img
+                src={galleryImage}
+                onLoad={onLoadHandler}
+                className="block w-full"
+                alt="Camera"
+              />
             </div>{' '}
           </div>
 
@@ -71,12 +81,14 @@ function Projects() {
               className="carousel-control-prev-icon inline-block bg-no-repeat"
               aria-hidden="true"
             ></span>
-            <span
-              className="visually-hidden text-gray-500 mx-10 backdrop-blur-md bg-black/10"
-              onClick={prevImage}
-            >
-              Previous
-            </span>
+            {imagesLoaded ? (
+              <span
+                className="visually-hidden text-gray-500 mx-10 backdrop-blur-md bg-black/10"
+                onClick={prevImage}
+              >
+                Previous
+              </span>
+            ) : null}
           </button>
           <button
             className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
@@ -88,12 +100,14 @@ function Projects() {
               className="carousel-control-next-icon inline-block bg-no-repeat"
               aria-hidden="true"
             ></span>
-            <span
-              className="visually-hidden text-gray-500 mx-10 backdrop-blur-md bg-black/10"
-              onClick={nextImage}
-            >
-              Next ({imageNumber} of 3)
-            </span>
+            {imagesLoaded ? (
+              <span
+                className="visually-hidden text-gray-500 mx-10 backdrop-blur-md bg-black/10"
+                onClick={nextImage}
+              >
+                Next ({imageNumber} of 3)
+              </span>
+            ) : null}
           </button>
         </div>
       </CSSTransition>
