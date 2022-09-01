@@ -65,7 +65,7 @@ function Projects() {
               <img
                 src={galleryImage}
                 onLoad={onLoadHandler}
-                className="block w-full"
+                className="block w-full border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl"
                 alt="gallery"
               />
               <button

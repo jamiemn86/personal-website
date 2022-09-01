@@ -1,7 +1,14 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-blue': colors.lightBlue,
+        cyan: colors.cyan
+      }
+    },
     screens: {
       sm: '640px',
       md: '865px',
@@ -9,5 +16,6 @@ module.exports = {
       xl: '1280px'
     }
   },
+  variants: {},
   plugins: []
 };

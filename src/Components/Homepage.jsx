@@ -10,7 +10,7 @@ function Homepage() {
       <div className="flex flex-wrap justify-center mt-10">
         <img
           src={profilephoto}
-          className="p-1 bg-white border rounded max-w-sm"
+          className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl rounded max-w-sm"
           alt="profilephoto"
         />
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import JSlogo from '../Assets/jslogo.png';
-import ReactLogo from '../Assets/reactlogo.png';
+import ReactJSlogo from '../Assets/reactjslogo.png';
 
 function About() {
   return (
@@ -11,12 +11,12 @@ function About() {
       <div className="flex flex-wrap justify-center space-x-24 scale-75">
         <img
           src={JSlogo}
-          className="p-1 bg-white border rounded max-w-sm hidden md:block"
+          className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl max-w-sm hidden md:block"
           alt="Javascript logo"
         />
         <img
-          src={ReactLogo}
-          className="p-1 bg-white border rounded max-w-sm hidden md:block"
+          src={ReactJSlogo}
+          className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl max-w-sm hidden md:block"
           alt="React logo"
         />
       </div>
