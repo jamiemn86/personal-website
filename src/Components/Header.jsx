@@ -31,7 +31,7 @@ const Header = () => {
               className="transition duration-500 hover:scale-110 ease-in-out"
             />
           </a>
-          <div className="md:hidden">
+          <div className={`menu-button menu-button--full md:hidden ${fullMenuVisible && 'menu-button-white'}`}>
             <Hamburger
               onToggle={() => {
                 setFullMenuVisible(!fullMenuVisible);
