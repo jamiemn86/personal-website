@@ -1,11 +1,17 @@
 import { useState } from 'react';
 import internet from '../Assets/internet.png';
 import { Link } from 'react-router-dom';
+import { useSpring } from 'react-spring';
+import { MenuFull } from './MobileMenuOverlay';
+import Hamburger from 'hamburger-react';
 
 const Header = () => {
-  const [state, setState] = useState(false);
+  const [fullMenuVisible, setFullMenuVisible] = useState(false);
+  const fullMenuAnimation = useSpring({
+    transform: fullMenuVisible ? `translateY(0)` : `translateY(-100%)`,
+    opacity: fullMenuVisible ? 1 : 0
+  });
 
-  // Paths to be added
   const navigation = [
     { title: 'About', path: '/about' },
     { title: 'CV', path: '/cv' },
@@ -26,46 +32,15 @@ const Header = () => {
             />
           </a>
           <div className="md:hidden">
-            <button
-              className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
-              onClick={() => setState(!state)}
-            >
-              {state ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 8h16M4 16h16"
-                  />
-                </svg>
-              )}
-            </button>
+            <Hamburger
+              onToggle={() => {
+                setFullMenuVisible(!fullMenuVisible);
+              }}
+            />
           </div>
         </div>
         <div
-          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-            state ? 'block' : 'hidden'
-          }`}
+          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 hidden`}
         >
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-12 md:space-y-0">
             {navigation.map((item, idx) => {
@@ -91,6 +66,7 @@ const Header = () => {
           </a>
         </div>
       </div>
+      <MenuFull style={fullMenuAnimation} />
     </nav>
   );
 };
