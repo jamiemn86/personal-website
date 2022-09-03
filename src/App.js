@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './Components/Homepage';
 import { Helmet } from 'react-helmet';
 import LoadingSpinner from './Components/LoadingSpinner';
+import internetImage from '../src/Assets/internet.png';
 
 const About = React.lazy(() => import('./Components/About'));
 const Cv = React.lazy(() => import('./Components/Cv'));
@@ -14,6 +15,11 @@ function App() {
     <BrowserRouter>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta
+          name="JMN Personal Website"
+          content="My personal website showcasing courses I have taken and projects I have worked on"
+        />
+        <meta property="og:image" content={internetImage} />
         <title>{'JMN Personal Website'}</title>
       </Helmet>
       <Suspense fallback={<div>{<LoadingSpinner />}</div>}>
