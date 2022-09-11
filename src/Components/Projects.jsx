@@ -4,6 +4,7 @@ import Footer from './Footer';
 import projectimage1 from '../Assets/projectimage1.png';
 import projectimage2 from '../Assets/projectimage2.png';
 import projectimage3 from '../Assets/projectimage3.png';
+import imageFailedtoLoad from '../Assets/404.jpg';
 import ImageGallery from 'react-image-gallery';
 import '../styles.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -34,7 +35,12 @@ function Projects() {
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item mx-auto max-w-screen-lg">
-          <ImageGallery items={images} />
+          <ImageGallery
+            items={images}
+            lazyload
+            showBullets
+            onErrorImageURL={imageFailedtoLoad}
+          />
         </div>
       </div>
       <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
