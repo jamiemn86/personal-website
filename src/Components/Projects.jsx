@@ -34,13 +34,7 @@ function Projects() {
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item mx-auto max-w-screen-lg">
-          <div
-            id="carouselExampleIndicators"
-            className="carousel slide relative"
-            data-bs-ride="carousel"
-          >
-            <ImageGallery items={images} />
-          </div>{' '}
+          <ImageGallery items={images} />
         </div>
       </div>
       <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
