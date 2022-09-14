@@ -4,6 +4,8 @@ import Footer from './Footer';
 import projectimage1 from '../Assets/projectimage1.png';
 import projectimage2 from '../Assets/projectimage2.png';
 import projectimage3 from '../Assets/projectimage3.png';
+import projectimage4 from '../Assets/projectimage4.png';
+import projectimage5 from '../Assets/projectimage5.png';
 import imageFailedtoLoad from '../Assets/404.jpg';
 import ImageGallery from 'react-image-gallery';
 import '../styles.css';
@@ -22,6 +24,14 @@ function Projects() {
     {
       original: projectimage3,
       thumbnail: projectimage3
+    },
+    {
+      original: projectimage4,
+      thumbnail: projectimage4
+    },
+    {
+      original: projectimage5,
+      thumbnail: projectimage5
     }
   ];
 

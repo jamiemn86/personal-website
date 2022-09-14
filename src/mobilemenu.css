@@ -43,7 +43,6 @@
 .menu-button {
   z-index: 40;
   border: none;
-  background: none;
   background: #fff;
   color: grey;
   transition: background 0.1s linear;
