@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  background-color: #3949ab;
+  background-image: linear-gradient(to bottom right, #3949ab, #29f24b);
   color: #fff;
   z-index: 30;
 }
@@ -51,6 +51,6 @@
 }
 
 .menu-button-white {
-  background: #3949ab;
+  background: none;
   color: #e8daff;
 }
