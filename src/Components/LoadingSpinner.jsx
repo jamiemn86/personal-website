@@ -21,7 +21,7 @@ function LoadingSpinner() {
         </svg>
         <span className="sr-only">Loading...</span>
       </div>
-      <div className="my-8">Loading, one moment please ...</div>
+      <div className="my-8 font-serif">Loading, one moment please ...</div>
     </div>
   );
 }

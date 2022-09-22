@@ -38,8 +38,8 @@ function Projects() {
   return (
     <>
       <Header />
-      <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-4 my-8 font-bold">
+      <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-lg mx-auto">
+        <p className="font-serif leading-relaxed mt-4 my-8 font-bold">
           Ironhack Web Development Bootcamp: Final Project
         </p>
       </div>
@@ -53,8 +53,11 @@ function Projects() {
           />
         </div>
       </div>
-      <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-10">
+      <div className="font-serif max-w-md sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
+        <p
+          className="leading-relaxed mt-10 first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+        >
           For the final module of the Ironhack Web Development Bootcamp I did in
           2021, I had to build a SPA using React. The project requirements were
           as follows:

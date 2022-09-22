@@ -18,7 +18,7 @@ export const MenuFull = ({ style }) => (
             <div key={idx}>
               <a
                 href={item.path}
-                className="menu-list-item menu-list-item--full"
+                className="font-serif menu-list-item--full"
               >
                 {item.title}
               </a>

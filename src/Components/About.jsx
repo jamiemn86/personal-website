@@ -20,8 +20,9 @@ function About() {
           alt="React logo"
         />
       </div>
-      <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-8 my-10 text-left">
+      <div className="max-w-md sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-xl mx-auto">
+        <p className="font-serif leading-relaxed mt-8 my-10 text-left first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left">
           I had been interested in doing a web development course for a long
           time, as I had previously worked with developers and on web projects
           in a QA and Project Management capacity. However it was only in

@@ -7,7 +7,10 @@ module.exports = {
       colors: {
         'light-blue': colors.lightBlue,
         cyan: colors.cyan
-      }
+      },
+      fontFamily: {
+        'serif': ['Georgia'] 
+      },
     },
     screens: {
       sm: '640px',
