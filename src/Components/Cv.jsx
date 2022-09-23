@@ -51,7 +51,6 @@ function Cv() {
               </span>{' '}
               at Audible, Berlin (Germany)
             </blockquote>
-            QA Manager at Audible, Berlin (Germany)
             <p>
               Worked alongside three Program Managers to test feature releases
               for three EU markets

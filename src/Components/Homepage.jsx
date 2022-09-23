@@ -15,19 +15,24 @@ function Homepage() {
         />
       </div>
       <div className="font-serif sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-sm mx-auto">
-        <p className="leading-relaxed mt-10 my-40 text-left first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-  first-letter:mr-3 first-letter:float-left">
-          Welcome! My name is Jamie Moller-Nielsen and this is a website I have
-          built to showcase web projects I have worked on, as well as house my
-          up-to-date CV. This site is a SPA built using Create React App,
-          Tailwind CSS and Float UI. The latter provides React UI components
-          which as of April 2022 are{' '}
+        <div
+          className="leading-relaxed mt-10 my-40 text-left first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+        >
           <blockquote>
-  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
-    <span class="relative text-white"> <a href="https://www.floatui.com/license/">currently free.</a></span>
-  </span>
-</blockquote>
-        </p>
+            Welcome! My name is Jamie Moller-Nielsen and this is a website I
+            have built to showcase web projects I have worked on, as well as
+            house my up-to-date CV. This site is a SPA built using Create React
+            App, Tailwind CSS and Float UI. The latter provides React UI
+            components which as of April 2022 are&nbsp;
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
+              <span class="relative text-white">
+                {' '}
+                <a href="https://www.floatui.com/license/">currently free.</a>
+              </span>
+            </span>
+          </blockquote>
+        </div>
       </div>
       <Footer />
     </>
