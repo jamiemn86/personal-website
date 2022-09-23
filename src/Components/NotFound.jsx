@@ -9,7 +9,7 @@ function NotFound() {
     <>
       <Header />
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="leading-relaxed mt-4 text-center">Page not found</p>
+        <p className="font-serif leading-relaxed mt-4 text-center">Page not found</p>
       </div>
       <div className="flex justify-center">
         <img
@@ -20,7 +20,7 @@ function NotFound() {
       </div>
 
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-xl mx-auto">
-        <div className="leading-relaxed mt-4 my-4 text-center">
+        <div className="font-serif leading-relaxed mt-4 my-4 text-center">
           <p>Sorry, this page doesn't appear to exist</p>
           <p>
             Take me back to the{' '}

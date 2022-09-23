@@ -1,6 +1,6 @@
 import React from 'react';
 import { animated } from 'react-spring';
-import '../mobilemenu.css';
+import '../CSS/mobilemenu.css';
 
 const navigation = [
   { title: 'Home', path: '/' },

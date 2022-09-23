@@ -8,7 +8,7 @@ import projectimage4 from '../Assets/projectimage4.png';
 import projectimage5 from '../Assets/projectimage5.png';
 import imageFailedtoLoad from '../Assets/404.jpg';
 import ImageGallery from 'react-image-gallery';
-import '../styles.css';
+import '../CSS/styles.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 function Projects() {
@@ -38,10 +38,14 @@ function Projects() {
   return (
     <>
       <Header />
-      <div className="max-w-lg sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-lg mx-auto">
-        <p className="font-serif leading-relaxed mt-4 my-8 font-bold">
-          Ironhack Web Development Bootcamp: Final Project
-        </p>
+      <div className="px-24 py-5 max-w-screen-sm mx-auto">
+        <div className="font-serif leading-relaxed mt-4 my-8 font-bold">
+        <blockquote>
+              <span class="before:block before:absolute before:-inset-1 before:-skew-x-3 before:bg-indigo-500 relative inline-block">
+                <span class="relative text-white">Ironhack Web Development Bootcamp: Final Project</span>
+              </span>{' '}
+            </blockquote>
+        </div>
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item mx-auto max-w-screen-lg">
@@ -53,7 +57,7 @@ function Projects() {
           />
         </div>
       </div>
-      <div className="font-serif max-w-md sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
+      <div className="font-serif sm:mx-auto text-gray-500 bg-white px-4 py-5 max-w-screen-sm mx-auto">
         <p
           className="leading-relaxed mt-10 first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
   first-letter:mr-3 first-letter:float-left"
