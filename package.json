@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "hamburger-react": "^2.5.0",
+    "npm": "^8.19.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",

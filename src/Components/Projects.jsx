@@ -40,17 +40,17 @@ function Projects() {
       <Header />
       <div className="px-48 py-5 max-w-screen-sm mx-auto">
         <div className="font-serif leading-relaxed mt-4 my-8 font-bold">
-        <blockquote>
-              <span class="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
-                <span class="relative text-white">Ironhack WD Bootcamp</span>
-              </span>{' '}
-            </blockquote>
-            <div className='mt-4'></div>
-            <blockquote>
-              <span class="before:block before:absolute before:-inset-1 before:skew-y-2 before:bg-indigo-500 relative inline-block">
-                <span class="relative text-white">Final Project</span>
-              </span>{' '}
-            </blockquote>
+          <blockquote>
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
+              <span class="relative text-white">Ironhack WD Bootcamp</span>
+            </span>{' '}
+          </blockquote>
+          <div className="mt-4"></div>
+          <blockquote>
+            <span class="before:block before:absolute before:-inset-1 before:skew-y-2 before:bg-indigo-500 relative inline-block">
+              <span class="relative text-white">Final Project</span>
+            </span>{' '}
+          </blockquote>
         </div>
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
