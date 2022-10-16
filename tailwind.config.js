@@ -5,18 +5,26 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'light-blue': colors.lightBlue,
+        'light-blue': colors.sky,
         cyan: colors.cyan
       },
       fontFamily: {
-        'serif': ['Georgia'] 
-      },
+        serif: ['Georgia']
+      }
     },
     screens: {
       sm: '640px',
       md: '865px',
       lg: '1024px',
       xl: '1280px'
+    },
+    animation: {
+      shine: 'shine 1s'
+    },
+    keyframes: {
+      shine: {
+        '100%': { left: '125%' }
+      }
     }
   },
   variants: {},
