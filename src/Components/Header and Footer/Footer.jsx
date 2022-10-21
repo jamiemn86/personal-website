@@ -1,4 +1,4 @@
-import socialmedia from '../../Assets/social-linkedin-circle-1024.webp';
+import socialmedia from '../../Assets/LinkedInIconCircle.svg.png';
 import githubLogo from '../../Assets/GitHub-Mark-120px-plus.png';
 import { Link } from 'react-router-dom';
 
@@ -40,23 +40,23 @@ const Footer = () => {
           </a>
         </div>
         <div className="mt-6 sm:mt-0">
-          <ul className="flex items-center space-x-4">
+          <ul className="flex items-center space-x-8">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <a href="https://www.linkedin.com/in/jmollernielsen/">
-                <img
-                  src={socialmedia}
-                  alt="LinkedIn"
-                  className="transition duration-500 hover:scale-110 ease-in-out"
-                />
+              <a
+                href="https://www.linkedin.com/in/jmollernielsen/"
+                className="transition duration-500 group hover:scale-110 ease-in-out"
+              >
+                <img src={socialmedia} alt="GitHubLogo" />
+                <div className="absolute top-0 -inset-full h-1/16 w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
               </a>
             </li>
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <a href="https://github.com/jamiemn86">
-                <img
-                  src={githubLogo}
-                  alt="GitHubLogo"
-                  className="transition duration-500 hover:scale-110 ease-in-out"
-                />
+              <a
+                href="https://github.com/jamiemn86"
+                className="transition duration-500 group hover:scale-110 ease-in-out"
+              >
+                <img src={githubLogo} alt="GitHubLogo" />
+                <div className="absolute top-0 -inset-full h-1/16 w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
               </a>
             </li>
           </ul>
