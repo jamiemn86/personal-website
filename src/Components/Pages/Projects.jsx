@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import projectimage1 from '../Assets/projectimages/projectone/projectimage1.png';
-import projectimage2 from '../Assets/projectimages/projectone/projectimage2.png';
-import projectimage3 from '../Assets/projectimages/projectone/projectimage3.png';
-import projectimage4 from '../Assets/projectimages/projectone/projectimage4.png';
-import projectimage5 from '../Assets/projectimages/projectone/projectimage5.png';
-import imageFailedtoLoad from '../Assets/404.jpg';
+import Header from '../Header and Footer/Header';
+import Footer from '../Header and Footer/Footer';
+import projectimage1 from '../../Assets/projectimages/projectone/projectimage1.png';
+import projectimage2 from '../../Assets/projectimages/projectone/projectimage2.png';
+import projectimage3 from '../../Assets/projectimages/projectone/projectimage3.png';
+import projectimage4 from '../../Assets/projectimages/projectone/projectimage4.png';
+import projectimage5 from '../../Assets/projectimages/projectone/projectimage5.png';
+import imageFailedtoLoad from '../../Assets/404.jpg';
 import ImageGallery from 'react-image-gallery';
-import '../CSS/styles.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import '../../CSS/styles.css';
 
 function Projects() {
   const images = [
@@ -41,14 +41,14 @@ function Projects() {
       <div className="px-44 py-5 max-w-screen-sm mx-auto">
         <div className="font-serif leading-relaxed mt-4 my-8 font-bold">
           <blockquote>
-            <span class="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
-              <span class="relative text-white">Ironhack WD Bootcamp</span>
+            <span className="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
+              <span className="relative text-white">Ironhack WD Bootcamp</span>
             </span>{' '}
           </blockquote>
           <div className="mt-6"></div>
           <blockquote>
-            <span class="before:block before:absolute before:-inset-1 before:skew-y-2 before:bg-indigo-500 relative inline-block">
-              <span class="relative text-white">Final Project</span>
+            <span className="before:block before:absolute before:-inset-1 before:skew-y-2 before:bg-indigo-500 relative inline-block">
+              <span className="relative text-white">Final Project</span>
             </span>{' '}
           </blockquote>
         </div>

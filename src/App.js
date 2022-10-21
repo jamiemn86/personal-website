@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './Components/Homepage';
+import Homepage from './Components/Pages/Homepage';
 import { Helmet } from 'react-helmet';
 import LoadingSpinner from './Components/LoadingSpinner';
 
-const About = React.lazy(() => import('./Components/About'));
-const Cv = React.lazy(() => import('./Components/Cv'));
-const Projects = React.lazy(() => import('./Components/Projects'));
+const About = React.lazy(() => import('./Components/Pages/About'));
+const Cv = React.lazy(() => import('./Components/Pages/Cv'));
+const Projects = React.lazy(() => import('./Components/Pages/Projects'));
 const NotFound = React.lazy(() => import('./Components/NotFound'));
 
 function App() {

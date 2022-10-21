@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Header from '../src/Components/Header';
-import Footer from '../src/Components/Footer';
-import Homepage from '../src/Components/Homepage';
-import About from '../src/Components/About';
+import Header from '../src/Components/Header and footer/Header';
+import Footer from '../src/Components/Header and footer/Footer';
+import Homepage from '../src/Components/Pages/Homepage';
+import About from '../src/Components/Pages/About';
 
 test('header appears correctly', async () => {
   render(

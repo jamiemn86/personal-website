@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import profilephoto from '../Assets/profilephoto.jpg';
+import Header from '../Header and Footer/Header';
+import Footer from '../Header and Footer/Footer';
+import profilephoto from '../../Assets/profilephoto.jpg';
 
 function Homepage() {
   return (
@@ -25,8 +25,8 @@ function Homepage() {
             house my up-to-date CV. This site is a SPA built using Create React
             App, Tailwind CSS and Float UI. The latter provides React UI
             components which as of April 2022 are&nbsp;
-            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
-              <span class="relative text-white">
+            <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
+              <span className="relative text-white">
                 {' '}
                 <a href="https://www.floatui.com/license/">currently free.</a>
               </span>

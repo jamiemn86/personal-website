@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header and Footer/Header';
+import Footer from './Header and Footer/Footer';
 import { Link } from 'react-router-dom';
 import NotFoundImage from '../Assets/404.jpg';
 
@@ -9,7 +9,9 @@ function NotFound() {
     <>
       <Header />
       <div className="max-w-lg sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-        <p className="font-serif leading-relaxed mt-4 text-center">Page not found</p>
+        <p className="font-serif leading-relaxed mt-4 text-center">
+          Page not found
+        </p>
       </div>
       <div className="flex justify-center">
         <img

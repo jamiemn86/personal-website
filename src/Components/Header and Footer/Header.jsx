@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import internet from '../Assets/internet.png';
+import internet from '../../Assets/internet.png';
 import { Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
-import { MenuFull } from './MobileMenuOverlay';
+import { MenuFull } from '../MobileMenuOverlay';
 import Hamburger from 'hamburger-react';
 
 const Header = () => {

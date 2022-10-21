@@ -1,5 +1,5 @@
-import socialmedia from '../Assets/social-linkedin-circle-1024.webp';
-import githubLogo from '../Assets/GitHub-Mark-120px-plus.png';
+import socialmedia from '../../Assets/social-linkedin-circle-1024.webp';
+import githubLogo from '../../Assets/GitHub-Mark-120px-plus.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

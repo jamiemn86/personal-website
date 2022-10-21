@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../Header and Footer/Header';
+import Footer from '../Header and Footer/Footer';
 
 function Cv() {
   return (
@@ -15,8 +15,8 @@ function Cv() {
             <p className="italic">November 2021 - Present</p>
             <p>
               <blockquote>
-                <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
-                  <span class="relative text-white">Test Lead</span>
+                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
+                  <span className="relative text-white">Test Lead</span>
                 </span>{' '}
                 at Banqsoft, Gdansk (Poland)
               </blockquote>
@@ -31,8 +31,8 @@ function Cv() {
           <div className="leading-relaxed mt-4 my-4 text-center">
             <p className="italic">October 2019 - October 2021</p>
             <blockquote>
-              <span class="before:block before:absolute before:-inset-1 before:skew-y-3 before:bg-indigo-500 relative inline-block">
-                <span class="relative text-white">Program Manager</span>
+              <span className="before:block before:absolute before:-inset-1 before:skew-y-3 before:bg-indigo-500 relative inline-block">
+                <span className="relative text-white">Program Manager</span>
               </span>{' '}
               at Audible, Berlin (Germany)
             </blockquote>
@@ -46,8 +46,8 @@ function Cv() {
           <div className="leading-relaxed mt-4 my-4 text-center">
             <p className="italic">March 2016 - September 2019</p>
             <blockquote>
-              <span class="before:block before:absolute before:-inset-1 before:skew-x-3 before:bg-indigo-500 relative inline-block">
-                <span class="relative text-white">QA Manager</span>
+              <span className="before:block before:absolute before:-inset-1 before:skew-x-3 before:bg-indigo-500 relative inline-block">
+                <span className="relative text-white">QA Manager</span>
               </span>{' '}
               at Audible, Berlin (Germany)
             </blockquote>

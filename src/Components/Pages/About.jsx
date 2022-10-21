@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import JSlogo from '../Assets/jslogo.png';
-import ReactJSlogo from '../Assets/reactjslogo.png';
+import Header from '../Header and Footer/Header';
+import Footer from '../Header and Footer/Footer';
+import JSlogo from '../../Assets/jslogo.png';
+import ReactJSlogo from '../../Assets/reactjslogo.png';
 
 function About() {
   return (
