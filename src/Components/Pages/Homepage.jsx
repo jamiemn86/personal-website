@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header and Footer/Header';
 import Footer from '../Header and Footer/Footer';
-import profilephoto from '../../Assets/profilephoto.jpg';
+import profilePhoto from '../../Assets/Page Images/profilephoto.jpg';
 
 function Homepage() {
   return (
@@ -9,7 +9,7 @@ function Homepage() {
       <Header />
       <div className="flex flex-wrap justify-center mt-10">
         <img
-          src={profilephoto}
+          src={profilePhoto}
           className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl rounded max-w-sm"
           alt="profilephoto"
         />

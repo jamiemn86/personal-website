@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '../Header and Footer/Header';
 import Footer from '../Header and Footer/Footer';
-import projectimage1 from '../../Assets/projectimages/projectone/projectimage1.png';
-import projectimage2 from '../../Assets/projectimages/projectone/projectimage2.png';
-import projectimage3 from '../../Assets/projectimages/projectone/projectimage3.png';
-import projectimage4 from '../../Assets/projectimages/projectone/projectimage4.png';
-import projectimage5 from '../../Assets/projectimages/projectone/projectimage5.png';
+import projectimage1 from '../../Assets/Project Images/Project One/projectimage1.png';
+import projectimage2 from '../../Assets/Project Images/Project One/projectimage2.png';
+import projectimage3 from '../../Assets/Project Images/Project One/projectimage3.png';
+import projectimage4 from '../../Assets/Project Images/Project One/projectimage4.png';
+import projectimage5 from '../../Assets/Project Images/Project One/projectimage5.png';
 import imageFailedtoLoad from '../../Assets/404.jpg';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';

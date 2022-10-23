@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import internet from '../../Assets/internet.png';
+import internet from '../../Assets/Header and Footer/internet.png';
 import { Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
 import { MenuFull } from '../MobileMenuOverlay';

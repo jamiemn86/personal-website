@@ -1,5 +1,5 @@
-import socialmedia from '../../Assets/LinkedInIconCircle.svg.png';
-import githubLogo from '../../Assets/GitHub-Mark-120px-plus.png';
+import linkedInLogo from '../../Assets/Header and Footer/LinkedInIconCircle.svg.png';
+import githubLogo from '../../Assets/Header and Footer/GitHub-Mark-120px-plus.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -46,7 +46,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/jmollernielsen/"
                 className="transition duration-500 group hover:scale-110 ease-in-out"
               >
-                <img src={socialmedia} alt="GitHubLogo" />
+                <img src={linkedInLogo} alt="GitHubLogo" />
                 <div className="absolute top-0 -inset-full h-1/16 w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
               </a>
             </li>
