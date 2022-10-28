@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header and Footer/Header';
-import Footer from './Header and Footer/Footer';
+import Header from '../Header and Footer/Header';
+import Footer from '../Header and Footer/Footer';
 import { Link } from 'react-router-dom';
-import NotFoundImage from '../Assets/404.jpg';
-import * as locationPathname from './../Components/UseGetURL';
+import NotFoundImage from '../../Assets/404.jpg';
+import * as locationPathname from './UseGetURL';
 
 function NotFound() {
   const pathNotFound = locationPathname.useGetPath();

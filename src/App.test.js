@@ -5,7 +5,7 @@ import Footer from '../src/Components/Header and footer/Footer';
 import Homepage from '../src/Components/Pages/Homepage';
 import About from '../src/Components/Pages/About';
 import Projects from '../src/Components/Pages/Projects.jsx';
-import NotFound from '../src/Components/NotFound.jsx';
+import NotFound from './Components/Error Handling/NotFound.jsx';
 
 test('header appears correctly', async () => {
   render(
