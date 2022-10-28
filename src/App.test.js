@@ -106,7 +106,7 @@ test('not found page text appears correctly', async () => {
   );
 
   const notFoundText = screen.getByText(
-    `Sorry, this page doesn't appear to exist`,
+    `Sorry, the following path doesn't appear to exist`,
     {
       exact: false
     }
