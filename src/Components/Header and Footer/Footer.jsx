@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="font-serif text-gray-500 bg-white px-4 py-11 max-w-screen-xl mx-auto">
+    <footer className="font-serif text-gray-500 bg-white px-4 py-11 max-w-screen-xl mx-auto text-center">
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-14 sm:space-y-0">
         {footerNavs.map((item, idx) => (
           <div key={idx}>
@@ -39,7 +39,7 @@ const Footer = () => {
             Float UI.
           </a>
         </div>
-        <div className="mt-6 sm:mt-0">
+        <div className="mt-6 sm:mt-0 flex flex-col items-center">
           <ul className="flex items-center space-x-8">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a
