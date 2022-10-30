@@ -12,15 +12,15 @@ function Cv() {
         </div>
         <div className="sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-sm mx-auto">
           <div className="leading-relaxed mt-4 my-4 text-center">
-            <p className="italic">November 2021 - Present</p>
-            <p>
+            <div className="italic">November 2021 - Present</div>
+            <div>
               <blockquote>
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
                   <span className="relative text-white">Test Lead</span>
                 </span>{' '}
                 at Banqsoft, Gdansk (Poland)
               </blockquote>
-            </p>
+            </div>
             <p>
               Working on SaaS upgrades in the Asset Finance Team of a Nordic
               financial software company
