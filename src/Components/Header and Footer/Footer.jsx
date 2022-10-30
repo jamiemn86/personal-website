@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="font-serif text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
+    <footer className="font-serif text-gray-500 bg-white px-4 py-11 max-w-screen-xl mx-auto">
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-14 sm:space-y-0">
         {footerNavs.map((item, idx) => (
           <div key={idx}>
