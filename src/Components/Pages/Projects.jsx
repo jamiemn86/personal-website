@@ -38,7 +38,7 @@ function Projects() {
   return (
     <>
       <Header />
-      <div className="px-44 py-5 max-w-screen-sm mx-auto">
+      <div className="px-36 py-5 max-w-screen-sm mx-auto">
         <div className="font-serif leading-relaxed mt-4 my-8 font-bold">
           <blockquote>
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
