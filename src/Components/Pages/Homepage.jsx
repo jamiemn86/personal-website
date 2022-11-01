@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../Header and Footer/Header';
 import Footer from '../Header and Footer/Footer';
 import profilePhoto from '../../Assets/Page Images/profilephoto.jpg';
+import profilePhotowithText from '../../Assets/Page Images/profilephotowithtext.jpg';
 
 function Homepage() {
+  const [isShown, setIsShown] = useState(false);
+
   return (
     <>
       <Header />
       <div className="flex flex-wrap justify-center mt-10">
         <img
-          src={profilePhoto}
-          className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl rounded max-w-sm hover:opacity-70 ease-in-out duration-1000"
+          src={isShown ? profilePhotowithText : profilePhoto}
+          className="border-gradient-br-blue-green-gray-900 border-transparent border-solid border-2 rounded-xl rounded max-w-sm hover:opacity-70 ease-in-out duration-500"
           alt="profilephoto"
+          onMouseEnter={() => setIsShown(true)}
+          onMouseLeave={() => setIsShown(false)}
         />
       </div>
       <div className="font-serif sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-sm mx-auto">
