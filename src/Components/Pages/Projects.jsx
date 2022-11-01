@@ -38,8 +38,8 @@ function Projects() {
   return (
     <>
       <Header />
-      <div className="text-center">
-        <div className="font-serif leading-relaxed mt-4 my-8 font-bold">
+      <div className="text-center my-16">
+        <div className="font-serif leading-relaxed mt-4 my-16 font-bold">
           <blockquote>
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-indigo-500 relative inline-block">
               <span className="relative text-white">Ironhack WD Bootcamp</span>
