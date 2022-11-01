@@ -21,7 +21,7 @@ function Homepage() {
       </div>
       <div className="font-serif sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-5 max-w-screen-sm mx-auto">
         <div
-          className="leading-relaxed mt-10 my-40 text-left first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+          className="leading-relaxed mt-10 my-30 text-left first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
   first-letter:mr-3 first-letter:float-left"
         >
           <blockquote>
