@@ -1,12 +1,14 @@
 import React from 'react';
 import { animated } from 'react-spring';
 import '../CSS/mobilemenu.css';
+import { FaHome, FaBriefcase, FaTools } from 'react-icons/fa';
+import { FcManager } from 'react-icons/fc';
 
 const navigation = [
-  { title: 'Home', path: '/' },
-  { title: 'About', path: '/about' },
-  { title: 'CV', path: '/cv' },
-  { title: 'Projects', path: '/projects' }
+  { title: 'Home', icon: <FaHome />, path: '/' },
+  { title: 'About', icon: <FcManager />, path: '/about' },
+  { title: 'CV', icon: <FaBriefcase />, path: '/cv' },
+  { title: 'Projects', icon: <FaTools />, path: '/projects' }
 ];
 
 export const MenuFull = ({ style }) => (
@@ -19,8 +21,11 @@ export const MenuFull = ({ style }) => (
               <a
                 href={item.path}
                 className="font-serif menu-list-item--full"
+                style={{ display: 'flex', alignItems: 'center' }}
               >
                 {item.title}
+                &nbsp;&nbsp;
+                {item.icon}
               </a>
             </div>
           );
