@@ -12,7 +12,24 @@ function Cv() {
         </div>
         <div className="sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-sm mx-auto">
           <div className="leading-relaxed mt-4 my-4 text-center">
-            <div className="italic">November 2021 - Present</div>
+            <div className="italic">February 2023 - Present</div>
+            <div>
+              <blockquote>
+                <span className="before:block before:absolute before:-inset-1 before:skew-x-3 before:bg-indigo-500 relative inline-block">
+                  <span className="relative text-white">Upgrade Manager</span>
+                </span>{' '}
+                at Banqsoft, Gdansk (Poland)
+              </blockquote>
+            </div>
+            <p>
+              Project Management of SaaS upgrades in the Asset Finance Team of a
+              Nordic financial software company
+            </p>
+          </div>
+        </div>
+        <div className="sm:mx-auto sm:text-center text-gray-500 bg-white px-4 py-4 max-w-screen-sm mx-auto">
+          <div className="leading-relaxed mt-4 my-4 text-center">
+            <div className="italic">November 2021 - January 2023</div>
             <div>
               <blockquote>
                 <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-500 relative inline-block">
@@ -22,8 +39,8 @@ function Cv() {
               </blockquote>
             </div>
             <p>
-              Working on SaaS upgrades in the Asset Finance Team of a Nordic
-              financial software company
+              Leading testing of SaaS upgrades in the Asset Finance Team of a
+              Nordic financial software company
             </p>
           </div>
         </div>
